@@ -24,7 +24,7 @@ def process_tiff_files(input_folder, extension='tif', recursive=True):
 
 def main():
     # Setup the argument parser
-    parser = argparse.ArgumentParser(description="Adding internal pyramids to raster")
+    parser = argparse.ArgumentParser(description="Adding internal pyramids to raster in a folder recursively")
     
     # Add command-line arguments
     parser.add_argument('input_folder', type=str, help="Path to the input folder containing the files.")

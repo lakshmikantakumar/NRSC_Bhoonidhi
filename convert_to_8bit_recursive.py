@@ -33,7 +33,7 @@ def process_tiff_files(input_folder, output_folder, extension='tif', recursive=T
 
 def main():
     # Setup the argument parser
-    parser = argparse.ArgumentParser(description="Convert image files to 8-bit format.")
+    parser = argparse.ArgumentParser(description="Convert image files in a folder recursivly to 8-bit format.")
     
     # Add command-line arguments
     parser.add_argument('input_folder', type=str, help="Path to the input folder containing the files.")

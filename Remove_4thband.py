@@ -1,10 +1,5 @@
 """
 This script removes the 4 th and above bands, to keep only 3 bands
-Author: Dr. Lakshmi Kantakumar Neelamsetti, GDD GDC, Survey of India
-Date: 27-Jun-2024
-Version:1.0
-
-Remark: use only 8 bit images, the output form 8bit conversion script.
 """
 import os
 import rasterio
