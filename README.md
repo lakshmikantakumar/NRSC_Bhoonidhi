@@ -6,11 +6,11 @@ These scripts are designed to automate the process of creating basic metadata fo
 
 This project requires the following Python libraries:
 
-**rasterio:** For reading and writing geospatial raster data.
-
-**GDAL:** For working with geospatial data formats, accessible through the osgeo package.
-
-**numpy:** For numerical computing.
+  **rasterio:** For reading and writing geospatial raster data.
+  
+  **GDAL:** For working with geospatial data formats, accessible through the osgeo package.
+  
+  **numpy:** For numerical computing.
 
 Please refer to the requirements.txt file for the full list of dependencies.
 
@@ -69,6 +69,11 @@ Find files by extension in a root directory
 
 
 ## **Acknowledgements**
+
 If you use this repository or any part of the scripts in your work, please acknowledge the contributions. Attribution is appreciated.
+
+## **Disclaimer**
+
+This code is provided "as is" without any warranties or guarantees regarding its correctness. Use at your own risk.
 
 
