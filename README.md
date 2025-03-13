@@ -1,6 +1,6 @@
 # **NRSC_Bhoonidhi**
 
-These scripts are designed to automate the process of creating basic metadata for Cartosat imagery downloaded from the Bhoonidhi portal. They also handle the extraction of image footprints from ZIP files and renaming the extracted files. Additionally, the repository includes scripts that convert the downloaded images into 8-bit format.....
+These scripts are designed to automate the process of creating basic metadata for Cartosat imageries downloaded from the Bhoonidhi portal. They also handle the extraction of image footprints from ZIP files and renaming the extracted tif files. Additionally, the repository includes scripts that convert the downloaded 16-bit images into 8-bit images.....
 
 ## **Requirements**
 
