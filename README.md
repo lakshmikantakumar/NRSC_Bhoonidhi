@@ -58,6 +58,10 @@ Converts a multi-band/Panchromatic GeoTIFF image to 8-bit format.
 
 Converts image files in a folder recursively to 8-bit format.
 
+### process_zip_files_for_8bit_conversion_internal_pyramids.py
+
+Processes all ZIP files in the input directory (and subdirectories if recursive is True), extracts TIFF files, converts them to 8-bit, and generates internal pyramids for each.
+
 ### Remove_4thband.py
 
 Remove the 4th band from raster (.tif) files in a directory.
