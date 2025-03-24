@@ -1,16 +1,16 @@
 # **NRSC_Bhoonidhi**
 
-These scripts are designed to automate the process of creating basic metadata for Cartosat imagery downloaded from the Bhoonidhi portal. They also handle the extraction of image footprints from ZIP files and renaming the extracted files. Additionally, the repository includes scripts that convert the downloaded images into 8-bit format.....
+These scripts are designed to automate the process of creating basic metadata for Cartosat imageries downloaded from the Bhoonidhi portal. They also handle the extraction of image footprints from ZIP files and renaming the extracted tif files. Additionally, the repository includes scripts that convert the downloaded 16-bit images into 8-bit images.....
 
 ## **Requirements**
 
 This project requires the following Python libraries:
 
-**rasterio:** For reading and writing geospatial raster data.
-
-**GDAL:** For working with geospatial data formats, accessible through the osgeo package.
-
-**numpy:** For numerical computing.
+  **rasterio:** For reading and writing geospatial raster data.
+  
+  **GDAL:** For working with geospatial data formats, accessible through the osgeo package.
+  
+  **numpy:** For numerical computing.
 
 Please refer to the requirements.txt file for the full list of dependencies.
 
@@ -69,6 +69,11 @@ Find files by extension in a root directory
 
 
 ## **Acknowledgements**
+
 If you use this repository or any part of the scripts in your work, please acknowledge the contributions. Attribution is appreciated.
+
+## **Disclaimer**
+
+This code is provided "as is" without any warranties or guarantees regarding its correctness. Use at your own risk.
 
 
